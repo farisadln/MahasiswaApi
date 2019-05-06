@@ -17,7 +17,7 @@
 
 **Install Web Service Requirement**
 
-    `pip install -r requirement.txt`
+    pip install -r requirement.txt
     
 **Running migrations**
 
