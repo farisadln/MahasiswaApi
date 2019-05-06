@@ -23,9 +23,9 @@
 
 **Migrations**
 
-    `$ python migrate.py db init`
-    `$ python migrate.py db migrate`
-    `python migrate.py db upgrade`
+    $ python migrate.py db init
+    $ python migrate.py db migrate
+    $ python migrate.py db upgrade
 
 **In the Category resources, we have creating 4 endpoints:**
 
