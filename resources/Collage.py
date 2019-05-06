@@ -68,3 +68,12 @@ class CollageResource(Resource):
 
         return {"status": 'success', 'data': result}, 204
 
+class CollageResources(Resource):
+    def get(self,id):
+        collages = Collage.query.filter_by(id = id)
+        collages = collages_schema.dump(collages).data
+        return {'status': 'success', 'data': collages}, 200
+
+
+
+
