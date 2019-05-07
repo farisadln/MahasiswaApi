@@ -39,3 +39,19 @@ POST - http://127.0.0.1:5000/api/Collage
 PUT - http://127.0.0.1:5000/api/Collage
 
 DELETE - http://127.0.0.1:5000/api/Collage
+
+**Enpoints Format Post Data**
+
+ - POST - http://127.0.0.1:5000/api/Collage
+ 
+        {
+	           "name" : "CollageName"
+        }
+        
+ - POST - http://127.0.0.1:5000/api/Biodata
+ 
+        {
+	        "collage_id": CollageId,
+            "name": "Name",
+            "nim": nim
+        }
