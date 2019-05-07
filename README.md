@@ -3,7 +3,7 @@
 **At the end of this guide, you should have this API endpoints available:**
 * GET - /api/Collage - Retrieve all Collage
 
-* GET - /api/Collage/< id> - Retrieve by id Collage
+* GET - /api/Collage/< id > - Retrieve by id Collage
 
 * POST - /api/Collage - Add a new Collage
 
@@ -32,7 +32,7 @@
 
 GET - http://127.0.0.1:5000/api/Collage
 
-GET - http://127.0.0.1:5000/api/Collage/<id>
+GET - http://127.0.0.1:5000/api/Collage/< id >
 
 POST - http://127.0.0.1:5000/api/Collage
 
